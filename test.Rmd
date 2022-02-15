@@ -1,0 +1,46 @@
+---
+title: "test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Evan Scribe, for CDS-102-204
+
+Lab 1, 2/8/2022
+
+This is the end of the first paragraph.
+
+This starts the next paragraph.
+However, putting a line right below it will not start a new paragraph.
+
+*When you surround text with one-star pairs it becomes italicized*
+
+**When you surround text with two-star pairs, it becomes bolded**
+
+***When you surround text with three-star pairs it becomes both bolded and italicized***
+
+1.  Start typing this list. Note there are two spaces between the period 
+    and the word "Start".
+2.  Type the second line of the list
+1.  If I type step 3 as another step 1 it ignores it and still puts it as step 3.
+
+*   This star creates a bullet point on the list.
+*   Visually, it's similar to the numbered list.
+
+1.  What happens if we nest a list?
+    1.  Type four spaces, then type the number
+    2.  This did what I expected.
+2.  What if we contine the numbers this way?
+    *   If we indent using stars it becomes a bullet point
+    *   Let's add another one for good measure.
+        *   We can get another level of nesting!
+        
+[This serves as a hyperlink!](https://google.com)
+        
+![This is text captioning an image](chrome.png)
+
